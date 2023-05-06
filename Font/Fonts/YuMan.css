@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'YuMan';
+    src: url('./yuemannirongziti-webfont.eot');
+    src: url('./yuemannirongziti-webfont.eot') format('embedded-opentype'),
+         url('./yuemannirongziti-webfont.woff2') format('woff2'),
+         url('./yuemannirongziti-webfont.woff') format('woff'),
+         url('./yuemannirongziti.ttf') format('truetype'),
+         url('./yuemannirongziti-webfont.svg') format('svg');
+}
