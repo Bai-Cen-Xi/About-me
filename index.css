@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: webfont;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style: none;
+}
+#app {
+    overflow: hidden;
+}
+.el-row {
+    margin-bottom: 20px;
+}
+.el-col {
+    border-radius: 4px;
+}
+/* .bg-purple-dark {
+    background: #99a9bf;
+} */
+/* .bg-purple {
+    background: #d3dce6;
+} */
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.row-bg {
+    padding: 10px 0;
+    /* background-color: #f9fafc; */
+}
+.title-center {
+    text-align: center;
+}
+#ABOUT, #WHATIDO, #MRW, #CONTACT {
+    padding: 80px 0;
+}
+/* ----------------------------------------------------- */
+.height {
+    height: 60px;
+}
+
+.height li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 10px;
+}
+
+.van {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background: #f9fafc;
+    box-shadow: 0px 0px 30px 0px #9a9a9a;
+}
+/* ----------------------------------------------------- */
+.Main {
+    background: url(./img/hero-area.jpg) no-repeat;
+    background-size: cover;
+    font-family: YuMan !important;
+    position: relative;
+    margin-top: 80px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #0c0808;
+    opacity: .6;
+}
+
+.height1 {
+    height: 700px;
+    color: #fff;
+}
+
+.text-box {
+    text-align: center;
+    width: 100%;
+}
+
+.text-box .fz {
+    font-size: 135px !important;
+    line-height: 110px;
+}
+
+.text-box h1 {
+    font-size: 57px;
+}
+
+.text-box h3 {
+    font-size: 35px;
+}
+
+.text-box ul {
+    margin: 10px 0;
+    width: 18%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.text-box ul li {
+    display: inline-block;
+}
+/* ----------------------------------------------------- */
+.center {
+    justify-content: center !important;
+}
+
+.Am-img-box {
+    width: 100%;
+}
+
+.Am-img {
+    background: #fff;
+    box-shadow: 0 2px 6px #a5a5a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+
+.Am-img img {
+    width: 95%;
+}
+
+.inline1 h1 {
+    margin-bottom: 10px;
+}
+
+.inline1 {
+    color: #898989;
+    padding: 1em 0px;
+    margin: 0 25px;
+    min-width: 365px;
+    max-height: 540px;
+}
+
+.inline1 .text-width {
+    font-size: 13px;
+}
+
+.Am-text {
+    width: 90px;
+}
+
+.inline1 ul li {
+    margin: 10px 0;
+}
+
+.inline1, .inline1 ul li p {
+    display: inline-block;
+}
+
+.Am-button {
+    margin-top: 10%;
+}
+
+.red-1 {
+    background: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.red-1:hover {
+    background: #dc3546ca;
+    border: 1px solid #dc3546ca;
+}
+/* ----------------------------------------------------- */
+.What-do {
+    background: #f0f0f0;
+    padding: 60px 0;
+}
+
+.title {
+    padding-bottom: 30px;
+}
+
+.Wd-card {
+    height: 360px;
+    /* font-family: webfont; */
+}
+
+.Wb-text-box {
+    padding: 75px 0;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 25px #939393;
+    transition: .3s;
+}
+
+.Wb-text-box:hover {
+    box-shadow: 0 0 25px 10px #939393;
+    border: 1px solid #00000047;
+}
+
+.Wb-text-box i {
+    font-size: 60px;
+}
+
+.Wb-text-box h4 {
+    height: 30px;
+    margin: 20px 0 10px;
+}
+
+.Wb-text-box p {
+    font-size: 13px;
+    width: 65%;
+    height: 80px;
+    margin: auto;
+    line-height: 20px;
+    overflow: auto;
+}
+/* ----------------------------------------------------- */
+.MRW {
+    padding: 60px 0;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.have-box {
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #409eff9e;
+    transition: .1s;
+}
+
+.have {
+    display: inline-flex;
+    padding: 27% 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+/* ----------------------------------------------------- */
+.WZ {
+    background: url(./img/bg-1.jpg);
+    height: 373px;
+}
+
+.WZ::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 373px;
+    position: absolute;
+}
+
+.WZ-padding {
+    padding: 100px 0;
+}
+
+.WZ-text-box {
+    text-align: center;
+    width: 100%;
+    color: #409eff;
+}
+
+.WZ-text-box i {
+    font-size: 60px;
+}
+
+.WZ-text-box h1 {
+    padding: 25px 0;
+}
+/* ----------------------------------------------------- */
+.Contact {
+    margin-top: 25px;
+}
+
+.Contact-box {
+    width: 100%;
+}
+
+.input-box input {
+    border: 1px solid #909399;
+    padding: 13px 0 13px 10px;
+    outline-color: #66b1ff;
+}
+
+.Name-Email {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name-Email input {
+    width: 45%;
+}
+
+.Subject input {
+    width: 97.5%;
+    margin: 15px 0;
+}
+
+textarea {
+    width: 99.5%;
+    max-width: 99.5%;
+    max-height: 300px;
+    border: 1px solid #909399;
+}
+
+.icon-border {
+    border: 1px solid #909399;
+    margin-top: 15px;
+}
+
+.icon-box, .icon-text p {
+    display: inline;
+}
+
+.icon-text p {
+    font-size: 13px;
+}
+
+.icon-text {
+    margin: 30px 0;
+}
+
+.icon-box {
+    background: #409eff;
+    padding: 10px 12px;
+    margin: 0 10px 0 25px;
+    border-radius: 50px;
+}
+/* ----------------------------------------------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: rgb(46, 46, 46);
+}

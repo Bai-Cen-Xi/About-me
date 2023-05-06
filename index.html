@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="./medio/medio.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Font/Fonts/YuMan.css">
+    <link rel="stylesheet" href="./Font/icons.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- 导航栏 -->
+        <el-row type="flex" class="row-bg van" justify="space-around">
+            <el-col :span="6">
+                <div class="grid-content bg-purple">
+                    <img src="./img/logo.png" alt="">
+                </div>
+            </el-col>
+            <el-col :span="16">
+                <div class="grid-content bg-purple height">
+                    <ul>
+                        <li>
+                            <a href="#HOME">
+                                <p>HOME</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ABOUT">
+                                <p>ABOUT</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#WHATIDO">
+                                <p>WHAT I DO</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#MRW">
+                                <p>My Remarkable Works</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#WORE">
+                                <p>WORE</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#CONTACT">
+                                <p>CONTACT</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </el-col>
+            <el-col :span="1">
+                <div class="grid-content bg-purple"></div>
+            </el-col>
+        </el-row>
+        <!-- 主图 -------------------------------------------- -->
+        <div class="Main" id="HOME">
+            <div class="overlay"></div>
+            <div class="container">
+                <el-row :gutter="20">
+                    <el-col :span="18" :offset="3">
+                        <div class="grid-content bg-purple height1">
+                            <div class="text-box">
+                                <h1>Hi This is</h1>
+                                <h1 class="fz">TOM SAULNIER</h1>
+                                <h3>Front-end Web Developer and Graphic Designer</h3>
+                                <ul>
+                                    <li><a href="https://github.com/Bai-Cen-Xi">
+                                        <!-- <i class="iconfont">&#xe601;</i> -->
+                                        <img src="./img/SVG/github.svg" alt="">
+                                    </a></li>
+                                    <li><a href="#">
+                                        <!-- <i class="iconfont">&#xe601;</i> -->
+                                        <img src="./img/SVG/QQ.svg" alt="">
+                                    </a></li>
+                                    <li><a href="#">
+                                        <!-- <i class="iconfont">&#xe601;</i> -->
+                                        <img src="./img/SVG/bilibili-line.svg" alt="">
+                                    </a></li>
+                                    <li><a href="#">
+                                        <!-- <i class="iconfont">&#xe601;</i> -->
+                                        <img src="./img/SVG/抖音.svg" alt="">
+                                    </a></li>
+                                    <li><a href="#">
+                                        <!-- <i class="iconfont">&#xe601;</i> -->
+                                        <img src="./img/SVG/steam.svg" alt="">
+                                    </a></li>
+                                </ul>
+                                <el-row>
+                                    <el-button type="primary">Get a Free Quote</el-button>
+                                </el-row>
+                            </div>
+                        </div>
+                    </el-col>
+                </el-row>
+            </div>
+        </div>
+        <!-- 内容 ---Hi Guys!--------------------------------- -->
+        <el-row type="flex" class="row-bg width" justify="center" id="ABOUT">
+            <!-- :xs="8" :sm="10" :md="12" :lg="10" :xl="7" -->
+            <el-col :span="8">
+                <div class="grid-content bg-purple">
+                    <div class="Am-img-box">
+                        <div class="Am-img">
+                            <img src="./img/about-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </el-col>
+            <el-col :span="10">
+                <div class="grid-content bg-purple inline1">
+                    <h1>Hi Guys!</h1>
+                    <p class="text-width">Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend
+                        sollicitudin
+                        lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius
+                        sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam
+                        dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra
+                        integer.
+                    </p>
+                    <ul>
+                        <li>
+                            <p class="Am-text">Name</p>
+                            <p>:</p>
+                            <span>Tom Saulnier</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Age</p>
+                            <p>:</p>
+                            <span>25 Yearsr</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Experience</p>
+                            <p>:</p>
+                            <span>4 Years</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Country</p>
+                            <p>:</p>
+                            <span>USA</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Location</p>
+                            <p>:</p>
+                            <span>San Francisco, CA</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">e-mail</p>
+                            <p>:</p>
+                            <span>email@example.com</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Phone</p>
+                            <p>:</p>
+                            <span>+ (00) 123 456 789</span>
+                        </li>
+                        <li>
+                            <p class="Am-text">Freelance</p>
+                            <p>:</p>
+                            <span>Available</span>
+                        </li>
+                    </ul>
+                    <div class="Am-button">
+                        <el-button type="primary" icon="el-icon-share">Download Resume</el-button>
+                        <el-button type="primary" icon="el-icon-s-comment" class="red-1">Contact Me</el-button>
+                    </div>
+                </div>
+            </el-col>
+        </el-row>
+        <!-- 内容 ---What I do--------------------------------- -->
+        <div class="What-do title-center" id="WHATIDO">
+            <div class="title">
+                <h1>What I do</h1>
+            </div>
+            <div class="Wd-card">
+                <el-row type="flex" class="row-bg" justify="center" :gutter="30">
+                    <el-col :span="4">
+                        <div class="grid-content bg-purple">
+                            <div class="Wb-text-box">
+                                <i class="el-icon-menu"></i>
+                                <h4>FRONT-END DEVELOPMENT</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="grid-content bg-purple">
+                            <div class="Wb-text-box">
+                                <i class="el-icon-coin"></i>
+                                <h4>FRONT-END DEVELOPMENT</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="grid-content bg-purple">
+                            <div class="Wb-text-box">
+                                <i class="el-icon-suitcase-1"></i>
+                                <h4>FRONT-END DEVELOPMENT</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="grid-content bg-purple">
+                            <div class="Wb-text-box">
+                                <i class="el-icon-chat-line-round"></i>
+                                <h4>FRONT-END DEVELOPMENT</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                            </div>
+                        </div>
+                    </el-col>
+                </el-row>
+            </div>
+        </div>
+        <!-- 内容 ---My Remarkable Works--------------------------------- -->
+        <div class="My-Remarkable-Works title-center MRW" id="MRW">
+            <div class="title">
+                <h1>My Remarkable Works</h1>
+            </div>
+            <el-row>
+                <el-button type="primary" plain class="">ALL</el-button>
+                <el-button type="primary" plain class="">DESIGN</el-button>
+                <el-button type="primary" plain class="">DEVELOPMENT</el-button>
+                <el-button type="primary" plain class="">PRINT</el-button>
+            </el-row>
+            <div class="MRW-img-box">
+                <el-row type="flex" class="row-bg" justify="center" :gutter="30">
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-1.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-2.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-3.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                </el-row>
+                <el-row type="flex" class="row-bg" justify="center" :gutter="30">
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-4.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-5.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple img-box">
+                            <img src="./img/img-6.jpg" alt="">
+                            <div class="have-box">
+                                <div class="have">
+                                    <el-button type="primary" icon="el-icon-share"></el-button>
+                                    <el-button type="primary" icon="el-icon-view"></el-button>
+                                </div>
+                            </div>
+                        </div>
+                    </el-col>
+                </el-row>
+            </div>
+        </div>
+        <!-- 内容 ---未 知--------------------------------- -->
+        <div class="WZ" id="WORE">
+            <el-row type="flex" class="row-bg WZ-padding" justify="center" :gutter="100">
+                <el-col :span="4">
+                    <div class="grid-content bg-purple">
+                        <div class="WZ-text-box">
+                            <i class="el-icon-menu"></i>
+                            <h1>250</h4>
+                                <p>PROJECT WORKING</p>
+                        </div>
+                    </div>
+                </el-col>
+                <el-col :span="4">
+                    <div class="grid-content bg-purple">
+                        <div class="WZ-text-box">
+                            <i class="el-icon-coin"></i>
+                            <h1>250</h4>
+                                <p>PROJECT WORKING</p>
+                        </div>
+                    </div>
+                </el-col>
+                <el-col :span="4">
+                    <div class="grid-content bg-purple">
+                        <div class="WZ-text-box">
+                            <i class="el-icon-suitcase-1"></i>
+                            <h1>250</h4>
+                                <p>PROJECT WORKING</p>
+                        </div>
+                    </div>
+                </el-col>
+                <el-col :span="4">
+                    <div class="grid-content bg-purple">
+                        <div class="WZ-text-box">
+                            <i class="el-icon-chat-line-round"></i>
+                            <h1>250</h4>
+                                <p>PROJECT WORKING</p>
+                        </div>
+                    </div>
+                </el-col>
+            </el-row>
+        </div>
+        <!-- 内容 ---CONTACT--------------------------------- -->
+        <div class="Contact" id="CONTACT">
+            <el-row type="flex" class="row-bg" justify="center">
+                <el-col :span="8" class="bg-purple">
+                    <div class="grid-content bg-purple">
+                        <div class="Contact-box">
+                            <h3>CONTACT FORM</h3>
+                            <div class="input-box Name-Email">
+                                <input type="text" name="Name" placeholder="Name">
+                                <input type="text" name="Email" placeholder="Email">
+                            </div>
+                            <div class="input-box Subject">
+                                <input type="text" name="Subject" placeholder="Subject">
+                            </div>
+                            <div class="input-box">
+                                <textarea type="text" name="Your Message" cols="30" rows="10"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <el-button type="primary">SEND MESSAGE</el-button>
+                        </div>
+                    </div>
+                </el-col>
+                <el-col :span="8" :offset="1" class="bg-purple">
+                    <div class="grid-content bg-purple">
+                        <div class="Contact-box">
+                            <div class="Link-box">
+                                <h3>CONTACT FORM</h3>
+                                <div class="icon-border">
+                                    <div class="icon-text">
+                                        <div class="icon-box">
+                                            <i class="el-icon-location-outline"></i>
+                                        </div>
+                                        <p>San Francisco, CA</p>
+                                    </div>
+                                    <div class="icon-text">
+                                        <div class="icon-box">
+                                            <i class="el-icon-message"></i>
+                                        </div>
+                                        <p>tomsaulnier@gmail.com</p>
+                                    </div>
+                                    <div class="icon-text">
+                                        <div class="icon-box">
+                                            <i class="el-icon-phone-outline"></i>
+                                        </div>
+                                        <p>+ (00) 123 456 789</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </el-col>
+            </el-row>
+        </div>
+        <footer>
+            Copyright © 2018
+        </footer>
+    </div>
+</body>
+<!-- <script src="./JS/index.js"></script> -->
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    // import 'element-ui/lib/theme-chalk/display.css';
+    new Vue({
+        el: '#app',
+        data: function () {
+            return { visible: false }
+        }
+    })
+    var qwe = document.querySelectorAll('.img-box');
+    var asd = document.querySelectorAll('.have-box');
+    var all = document.querySelector('.all');
+    var zxc = document.querySelectorAll('.YC');
+    qwe.forEach((v, i) => {
+        v.onmouseover = () => {
+            // asd[i].style.display = "block"
+            asd[i].style.opacity = 1
+        }
+        v.onmouseout = () => {
+            // asd[i].style.display = "none"
+            asd[i].style.opacity = 0
+        }
+    })
+</script>
+
+</html>

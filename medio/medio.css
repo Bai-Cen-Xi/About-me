@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .Am-img img {
+        /* background: #217ce4; */
+        display: none;
+    }
+}
